@@ -1,0 +1,13 @@
+{
+  "name": "zhixi-web-service",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24 <27"
+  },
+  "scripts": {
+    "start": "node server/start.mjs",
+    "check": "node --check server/start.mjs && node --check server/server.bundle.mjs"
+  }
+}
